@@ -1,7 +1,7 @@
 function countdown() {
     'use strict';
     var now = new Date(),
-        eventDate = new Date(2018, 1, 17, 10),
+        eventDate = new Date(2018, 8, 22, 10),
 	    currentTiime = now.getTime(),
         eventTime = eventDate.getTime(),
         remTime = eventTime - currentTiime,
