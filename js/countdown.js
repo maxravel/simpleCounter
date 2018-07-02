@@ -1,14 +1,14 @@
 function countdown() {
     'use strict';
     var now = new Date(),
-        eventDate = new Date(2018, 8, 22, 12),
-	    currentTiime = now.getTime(),
+        eventDate = new Date(2018, 8, 22, 10),
+	    currentTime = now.getTime(),
         eventTime = eventDate.getTime(),
-        remTime = eventTime - currentTiime,
+        remTime = eventTime - currentTime,
         s = Math.floor(remTime / 1000),
 	    m = Math.floor(s / 60),
 	    h = Math.floor(m / 60),
-	    d = Math.floor(h / 24);
+		d = Math.floor(h / 24);
 
 	h %= 24;
 	m %= 60;
@@ -19,8 +19,6 @@ function countdown() {
 	s = (s < 10) ? "0" + s : s;
 
 	document.getElementById("days").textContent = d;
-	document.getElementById("days").innerText = d;
-
 	document.getElementById("hours").textContent = h;
 	document.getElementById("minutes").textContent = m;
     document.getElementById("seconds").textContent = s;

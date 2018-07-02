@@ -1,20 +1,23 @@
 body {
-			background: #f6f6f6;
-			font-family: 'Roboto', sans-serif;
-		}
+	background: #f6f6f6;
+	font-family: 'Roboto', sans-serif;
+	display:flex;
+	justify-content:center;
+}
 
 .countdownContainer{
-			position: absolute;;
-			top: 30%;
-			left: 50%;
-			transform : translateX(-50%) translateY(-50%);
-			text-align: center;
-			background: #ddd;
-			border: 1px solid #999;
-			padding: 10px;
-			box-shadow: 0 0 5px 3px #ccc;
-		}
+	/* position: absolute;
+	margin:auto;
+	top: 30%;
+	left: 50%;
+	transform : translateX(-50%) translateY(-50%); */
+	text-align: center;
+	background: #ddd;
+	border: 1px solid #999;
+	padding: 10px;
+	box-shadow: 0 0 5px 3px #ccc;
+}
 
 .info {
-			font-size: 7vw;
-        }
+	font-size: 7vw;
+}
